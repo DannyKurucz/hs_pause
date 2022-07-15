@@ -2,7 +2,6 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
-shared_script '@es_extended/imports.lua'
 ui_page 'html/index.html'
 
 client_scripts {
