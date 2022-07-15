@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="./listener.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+	<body>
+		<div id="menu">
+
+			<img id="logo" src="logo.png">
+			<img id="bg" src="bg.png">
+			<!-- left buttons. -->
+
+			<button id="resume"><i class="fa fa-play"></i> Resume</button>
+			<button id="map"><i class="fa fa-map"></i> Map</button>
+			<button id="settings"><i class="fa fa-gear"></i> Settings</button>
+			
+			<!-- right buttons. -->
+
+			<button id="quit"><i class="fa fa-x"></i> Quit</button>
+			<button id="dis"><i class="fa fa-discord"></i> <a onclick="window.invokeNative('openUrl', 'https://discord.gg/ASTRzR8q3t')">Discord</a></button>
+			<button id="web"><i class="fa fa-sitemap"></i> <a onclick="window.invokeNative('openUrl', 'https://www.hellside.cz/')">WebSites</a></button>
+			
+			
+		</div>
+	</body>
+</html>
